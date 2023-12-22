@@ -1,5 +1,11 @@
-import { BellNotification, IconoirProvider, MoreVert } from "iconoir-react";
-import Links from "./Link";
+import {
+  BellNotification,
+  IconoirProvider,
+  Instagram,
+  MoreVert,
+  X,
+} from "iconoir-react";
+import Link from "./Link";
 import "/src/styles/Profile.css";
 
 function Profile() {
@@ -33,11 +39,29 @@ function Profile() {
             </div>
             <div className="username-wrapper">
               <h3 className="username">@jaredcv04</h3>
+              <p className="user-description">Salesforce & Web Developer</p>
             </div>
           </div>
-          <div>
-            <Links />
-          </div>
+          <section className="links-section">
+            <Link
+              sitename="LinkedIn"
+              socialurl="https://www.linkedin.com/in/jaredcv04/"
+            />
+            <Link sitename="Medium" socialurl="https://medium.com/@jaredcv04" />
+            <Link sitename="Github" socialurl="https://github.com/JaredMZ" />
+            <Link
+              sitename="Trailblazer"
+              socialurl="https://www.salesforce.com/trailblazer/jaredcv04"
+            />
+          </section>
+          <section className="social-section">
+            <a className="social" href="">
+              <X />
+            </a>
+            <a className="social" href="">
+              <Instagram />
+            </a>
+          </section>
         </div>
       </IconoirProvider>
     </>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
 li {
   list-style: none;
 }
@@ -6,6 +8,17 @@ a {
   text-decoration: none;
 }
 
-body{
-  background: url('/src/assets/img/aedrian-7l8XhfCW2Ao-unsplash.jpg');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Afacad', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  background-color: inherit;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+
 }
