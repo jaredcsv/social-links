@@ -1,0 +1,49 @@
+.top-bar {
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.menu-item{
+    width: 25%;
+}
+
+.profile-info-container{
+    border: 1px solid;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+.profile-pic-container {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 30px auto;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.username {
+    border: 1px solid;
+    padding: 10px; 
+}
