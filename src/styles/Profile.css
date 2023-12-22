@@ -1,6 +1,5 @@
 .top-bar {
     display: flex;
-    border: 1px solid;
     align-items: center;
     justify-content: center;
 
@@ -10,23 +9,27 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border: 1px solid;
     padding: 10px;
     width: 50%;
     border-radius: 25px;
+    background: rgba(255, 255, 255, 0.109);     
+    backdrop-filter: blur(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .menu-item{
     width: 25%;
 }
 
+.menu-item a {
+    color: rgb(88, 86, 86);
+}
+
 .profile-info-container{
-    border: 1px solid;
     display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 200px;
 }
 
 .profile-pic-container {
@@ -34,7 +37,7 @@
   width: 100px;
   height: 100px;
   overflow: hidden;
-  margin: 30px auto;
+  margin: 10px auto 0 auto;
 }
 
 .profile-pic {
@@ -44,6 +47,7 @@
 }
 
 .username {
-    border: 1px solid;
-    padding: 10px; 
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
 }

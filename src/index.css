@@ -5,3 +5,7 @@ li {
 a {
   text-decoration: none;
 }
+
+body{
+  background: url('/src/assets/img/aedrian-7l8XhfCW2Ao-unsplash.jpg');
+}

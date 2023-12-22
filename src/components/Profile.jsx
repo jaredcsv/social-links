@@ -32,7 +32,7 @@ function Profile() {
               />
             </div>
             <div className="username-wrapper">
-              <span className="username">@jaredcv04</span>
+              <h3 className="username">@jaredcv04</h3>
             </div>
           </div>
           <div>
