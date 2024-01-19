@@ -33,8 +33,8 @@ function Profile() {
             <div className="profile-pic-container">
               <img
                 className="profile-pic"
-                src="./src/assets/img/pfp-jared.jpeg"
-                alt=""
+                src="/assets/img/pfp-jared.jpeg"
+                alt="profile pic"
               />
             </div>
             <div className="username-wrapper">
