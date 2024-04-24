@@ -38,27 +38,27 @@ function Profile() {
               />
             </div>
             <div className="username-wrapper">
-              <h3 className="username">@jaredcv04</h3>
+              <h3 className="username">@jaredcsv</h3>
               <p className="user-description">Salesforce & Web Developer</p>
             </div>
           </div>
           <section className="links-section">
             <Link
               sitename="LinkedIn"
-              socialurl="https://www.linkedin.com/in/jaredcv04/"
+              socialurl="https://www.linkedin.com/in/jaredcsv/"
             />
-            <Link sitename="Medium" socialurl="https://medium.com/@jaredcv04" />
-            <Link sitename="Github" socialurl="https://github.com/JaredMZ" />
+            <Link sitename="Medium" socialurl="https://medium.com/@jaredcsv" />
+            <Link sitename="Github" socialurl="https://github.com/jaredcsv" />
             <Link
               sitename="Trailblazer"
-              socialurl="https://www.salesforce.com/trailblazer/jaredcv04"
+              socialurl="https://www.salesforce.com/trailblazer/jaredcsv"
             />
           </section>
           <section className="social-section">
-            <a className="social" href="">
+            <a className="social" href="https://twitter.com/Jaredcsv" target="blank">
               <X />
             </a>
-            <a className="social" href="">
+            <a className="social" href="https://www.instagram.com/jaredcsv/" target="blank">
               <Instagram />
             </a>
           </section>

@@ -2,11 +2,11 @@ import "/src/styles/Link.css";
 import PropTypes from 'prop-types';
 function Link(props) {
   return (
-    <div className="link-container">
-      <a className="social-link" href={props.socialurl} target="blank">
+    <a className="social-link" href={props.socialurl} target="blank">
+      <div className="link-container" >
         {props.sitename}
-      </a>
-    </div>
+      </div>
+    </a>
   );
 }
 
